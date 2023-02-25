@@ -10,10 +10,10 @@ What's uploaded now?
 - Escape fractions
 - UV slopes (dust attenuated)
 - E(B-V) assuming an SMC dust model from Gordon 2003
+- Lya spectra, spatial profiles (z=4.64, 5.0, and 6 only) -- requires separate download
+- Ha spectra, spatial profiles (z=4.64, 5.0, and 6 only) -- requires separate download
 
 What's coming?
-- Lya spectra, spatial profiles (z=4.64, 5.0, and 6 only)
-- Ha spectra, spatial profiles (z=4.64, 5.0, and 6 only)
 - Nebular continua
 
 What can be computed?
