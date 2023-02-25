@@ -1,5 +1,23 @@
 # SPHINX-20-data
 
+Example notebooks can be found in the notebooks directory, this will be updated over time
+
+What's uploaded now?
+- Various galaxy properties (i.e. SFRs, masses, metallicities)
+- Intrinsic and dust attenuated emission line luminosities
+- Intrinsic and dust attenuated stellar continua
+- Galaxy sizes and magnitudes
+- Escape fractions
+- UV slopes (dust attenuated)
+- E(B-V) assuming an SMC dust model from Gordon 2003
+
+What's coming?
+- Lya spectra, spatial profiles (z=4.64, 5.0, and 6 only)
+- Ha spectra, spatial profiles (z=4.64, 5.0, and 6 only)
+- Nebular continua
+
+What can be computed?
+- HST and JWST filter magnitudes (example notebook coming)
 
 # Description of quantities
 | Quantity | Description |
