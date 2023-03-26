@@ -12,9 +12,10 @@ What's uploaded now?
 - E(B-V) assuming an SMC dust model from Gordon 2003
 - Lya spectra, spatial profiles (z=4.64, 5.0, and 6 only) -- requires separate download -- https://drive.google.com/file/d/1vdshHqMY_jyH6VTtEEUcIygrkgOs_y8B/view?usp=share_link
 - Ha spectra, spatial profiles (z=4.64, 5.0, and 6 only) -- requires separate download -- https://drive.google.com/file/d/1pRZwWFu7VyJTdg_odTKr_UrV8h8rtRC6/view?usp=share_link
+- Nebular continua at z=6-10 
 
 What's coming?
-- Nebular continua
+- Nebular continua at z=4.64 and z=5
 
 What can be computed?
 - HST and JWST filter magnitudes (example notebook coming)
