@@ -12,13 +12,14 @@ What's uploaded now?
 - E(B-V) assuming an SMC dust model from Gordon 2003
 - Lya spectra, spatial profiles (z=4.64, 5.0, and 6 only) -- requires separate download -- https://drive.google.com/file/d/1vdshHqMY_jyH6VTtEEUcIygrkgOs_y8B/view?usp=share_link
 - Ha spectra, spatial profiles (z=4.64, 5.0, and 6 only) -- requires separate download -- https://drive.google.com/file/d/1pRZwWFu7VyJTdg_odTKr_UrV8h8rtRC6/view?usp=share_link
-- Nebular continua at z=6-10 
+- Nebular continua  
 
 What's coming?
-- Nebular continua at z=4.64 and z=5
+- Escape fractions along individual lines of sight 
+- Images for each galaxy at each wavelength
 
 What can be computed?
-- HST and JWST filter magnitudes (example notebook coming)
+- HST and JWST filter magnitudes
 
 # Description of quantities
 | Quantity | Description |
@@ -56,9 +57,9 @@ What can be computed?
 | mean_stellar_metallicity_lion | Ionizing luminosity weighted stellar metallicity log10 (Zsun) |
 | {Element}{Ion}_{Wavelength}_dir_{dir} | Dust attenuated line luminosity (erg/s) with stromgren correction |
 | {Element}{Ion}_{Wavelength}_dir_{dir}_rc | Dust attenuated then redenning corrected line luminosity (erg/s) with stromgren correction |
-| ebmv_dir_{dir} | E (B-V) |
+| ebmv\_dir\_{dir} | E (B-V) |
 | cont_{Wavelength}_int | Intrinsic f_lambda (erg/s/A) |
-| cont_{Wavelength}_int_dir_{dir} | Dust attenuated f_lambda (erg/s/A) |
+| cont_{Wavelength}\_int\_dir\_{dir} | Dust attenuated f_lambda (erg/s/A) |
 | MAB_1500_dir_{dir} | Dust attenuated AB magnitude at 1500 A |
 | cont_1500_size_dir_{dir} | Dust attenuated half light radius at 1500 A (pc) |
 | beta_dir_{dir} | Dust attenuated UV slope |
