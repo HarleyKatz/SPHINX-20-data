@@ -14,13 +14,14 @@ What's uploaded now?
 - Lya spectra, spatial profiles (z=4.64, 5.0, and 6 only) -- requires separate download -- https://drive.google.com/file/d/1vdshHqMY_jyH6VTtEEUcIygrkgOs_y8B/view?usp=share_link
 - Ha spectra, spatial profiles (z=4.64, 5.0, and 6 only) -- requires separate download -- https://drive.google.com/file/d/1pRZwWFu7VyJTdg_odTKr_UrV8h8rtRC6/view?usp=share_link
 - Nebular continua  
+- JWST filter magnitudes
 
 What's coming?
 - Escape fractions along individual lines of sight 
 - Images for each galaxy at each wavelength
 
 What can be computed?
-- HST and JWST filter magnitudes
+- HST and other telescope filter magnitudes 
 
 # Description of quantities
 | Quantity | Description |
