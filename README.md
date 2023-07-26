@@ -11,8 +11,8 @@ What's uploaded now?
 - UV slopes (dust attenuated)
 - E(B-V) assuming an SMC dust model from Gordon 2003
 - Full spectra. These care compressed and stored in in the data/spectra directory (note that they decompress to >2Gb). These are json files where the key represents the halo ID. Wavelengths are stored in microns and fluxes are stored in log10(f_nu). We store stellar, nebular, and line components separately. We provide the intrinsic spectrum as well as the spectrum along 10 sightlines accounting for dust. The spectra have all been shifted to their relevant redshift.
-- Lya spectra, spatial profiles (z=4.64, 5.0, and 6 only) -- requires separate download -- https://drive.google.com/file/d/1vdshHqMY_jyH6VTtEEUcIygrkgOs_y8B/view?usp=share_link
-- Ha spectra, spatial profiles (z=4.64, 5.0, and 6 only) -- requires separate download -- https://drive.google.com/file/d/1pRZwWFu7VyJTdg_odTKr_UrV8h8rtRC6/view?usp=share_link
+- Lya spectra, spatial profiles (z=4.64, 5.0, and 6 only) 
+- Ha spectra, spatial profiles (z=4.64, 5.0, and 6 only) 
 - Nebular continua  
 - JWST filter magnitudes
 
