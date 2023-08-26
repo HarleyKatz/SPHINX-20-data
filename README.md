@@ -16,7 +16,7 @@ What's uploaded now?
 - Nebular continua  
 - JWST filter magnitudes
 
-# Description of quantities
+# Description of quantities in all_basic_data.csv
 | Quantity | Description |
 | ----------- | ----------- |
 | halo\_id | Halo ID |
