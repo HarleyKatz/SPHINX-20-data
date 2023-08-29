@@ -1,6 +1,8 @@
-# SPHINX-20-data
+# SPHINX<sup>20</sup> Public Data Release
 
-This reposiotry contains 
+This reposiotry contains intrinsic and mock observations for a large sample of galaxies from the SPHINX<sup>20</sup> cosmological simulation. For simulation details, please refer to [Rosdahl et al. 2018](https://ui.adsabs.harvard.edu/abs/2018MNRAS.479..994R/abstract) and [Rosdahl et al. 2022](https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.2386R/abstract). For information regarding the data release, please refer to Katz et al. ***in prep.*** 
+
+# Directory Structure
 - **data**
     - **all_basic_data.csv** &rarr; CSV file containing all of the data for each halo at each redshift listed in the Table below
     - **spectra** &rarr; Intrinsic and dust attenuated spectra split into JSON files for each redshift. Haloes are keyed by their halo ID. All spectra have been redshifted to the value in the filename and we assume that the IGM is 100% opaque to photon with wavelength <1216.67 &#8491;. The file includes separate contributions from stellar continuum, nebular continuum, and nebular emission lines at a resolution of 1 &#8491;. Wavelength units are in microns (observed frame) and spectral units are in erg/s/Hz/cm<sup>2</sup>. Note that these files will need to be decompressed before than can be used and they result in a size of a few GB. They are currently stored on git LFS rather than in the main repo but will be downloaded when cloning. 
