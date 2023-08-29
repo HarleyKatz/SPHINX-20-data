@@ -1,6 +1,14 @@
 # SPHINX-20-data
 
-Example notebooks can be found in the notebooks directory, this will be updated over time
+This reposiotry contains 
+- data
+    - all_basic_data.csv &rarr; CSV file containing all of the data for each halo at each redshift listed in the Table below
+    - spectra &rarr; Intrinsic and dust attenuated spectra split into JSON files for each redshift. Haloes are keyed by their halo ID. All spectra have been redshifted to the value in the filename and we assume that the IGM is 100% opaque to photon with wavelength <1216.67 &#8491;. The file includes separate contributions from stellar continuum, nebular continuum, and nebular emission lines at a resolution of 1 &#8491;. The units of the spectrum are nJy.
+    - galaxy_sizes &rarr;
+    - SFHs &rarr;
+    - MHs &rarr;
+    - lya_ha_spec_profs &rarr;
+- notebooks &rarr; a suite of IPython notebook examples for how to use the data
 
 What's uploaded now?
 - Various galaxy properties (i.e. SFRs, masses, metallicities)
