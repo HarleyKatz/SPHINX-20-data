@@ -36,7 +36,6 @@ This reposiotry contains intrinsic and mock observations for a large sample of g
 | z | z position (Box units) |
 | mvir | log10 Halo Mass (Msun) |
 | rvir | Virial Radius (Box units) |
-| n\_stars | Total number of star particles |
 | stellar\_mass | log10 Stellar Mass (Msun) - integral of SFH |
 | sfr\_3 | SFR averaged over 3 Myr (Msun/yr) |
 | sfr\_5 | SFR averaged over 5 Myr (Msun/yr) |
