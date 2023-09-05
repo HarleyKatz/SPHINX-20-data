@@ -21,6 +21,7 @@ executing==1.2.0
 fastjsonschema==2.16.3
 fonttools==4.38.0
 fqdn==1.5.1
+git-lfs==3.4.0
 idna==3.4
 importlib-metadata==6.0.0
 importlib-resources==5.12.0
