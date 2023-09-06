@@ -2,6 +2,10 @@
 
 This repository contains intrinsic and mock observations for a large sample of galaxies from the SPHINX<sup>20</sup> cosmological simulation. For simulation details, please refer to [Rosdahl et al. 2018](https://ui.adsabs.harvard.edu/abs/2018MNRAS.479..994R/abstract) and [Rosdahl et al. 2022](https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.2386R/abstract). For information regarding the data release, please refer to Katz et al. ***in prep.*** 
 
+# Downloading the data
+
+Downloading the data is as simple as cloning this repository. Note however that the full spectra are stored on git lfs and this has to be installed in order to access them. A standard git clone will copy everything other than the spectra and the repository will simply contain a pointer to the location of the spectra files on lfs. If you try to decompress these files, it will result in an error. Instead, using 'git lfs clone' should download all the data and then the spectra files can be decompressed. 
+
 # Directory Structure
 - **data**
     - **all_basic_data.csv** &rarr; CSV file containing all of the data for each halo at each redshift listed in the Table below
