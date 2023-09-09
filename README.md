@@ -1,6 +1,6 @@
 # SPHINX<sup>20</sup> Public Data Release
 
-This repository contains intrinsic and mock observations for a large sample of galaxies from the SPHINX<sup>20</sup> cosmological simulation. For simulation details, please refer to [Rosdahl et al. 2018](https://ui.adsabs.harvard.edu/abs/2018MNRAS.479..994R/abstract) and [Rosdahl et al. 2022](https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.2386R/abstract). For information regarding the data release, please refer to Katz et al. ***in prep.*** 
+This repository contains intrinsic and mock observations for a large sample of galaxies from the SPHINX<sup>20</sup> cosmological simulation. For simulation details, please refer to [Rosdahl et al. 2018](https://ui.adsabs.harvard.edu/abs/2018MNRAS.479..994R/abstract) and [Rosdahl et al. 2022](https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.2386R/abstract). For information regarding the data release, please refer to [Katz et al. 2023](https://ui.adsabs.harvard.edu/abs/2023arXiv230903269K/abstract) 
 
 # Downloading the data
 
