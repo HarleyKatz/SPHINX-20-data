@@ -76,3 +76,124 @@ Downloading the data is as simple as cloning this repository. Note however that 
 | beta\_dir\_{dir}\_sn | Dust attenuated UV slope (stellar + nebular continuum) |
 | {filter}\_dir\_{dir} | Dust attenuated JWST NIRCam AB filter magnitude |
 | {filter}\_int | Intrinsic JWST NIRCam AB filter magnitude |
+
+
+# Using Python 3.12
+
+If you are using Python 3.12, follow these steps to set up the environment and run the analysis scripts.
+
+## Step 1: Create a virtual environment
+
+In the root of the repository:
+
+```bash
+python3 --version
+```
+the above should result in: 
+
+Python 3.12.0
+
+```bash
+python3 -m venv venv
+```
+
+This will create a virtual environment in the `venv/` directory.
+
+## Step 2: Activate the virtual environment
+
+- On Linux/macOS:
+
+    ```bash
+    source venv/bin/activate
+    ```
+
+- On Windows (PowerShell):
+
+    ```powershell
+    .\venv\Scripts\Activate.ps1
+    ```
+
+## Step 3: Install Python packages
+
+Use the following command to install the required packages, ignoring any strict version pins from `requirements.txt`:
+
+```bash
+pip install --upgrade pip
+pip install --upgrade -r requirements.txt --upgrade-strategy eager
+```
+
+Alternatively, to install the latest available versions of all packages:
+
+```bash
+pip install $(sed 's/==.*//' requirements.txt)
+```
+
+## Step 4: Decompress the data files
+
+Some data files (e.g., full spectra and Lyα/Hα profiles) are stored in `.tar.gz` format and must be decompressed before running any scripts that read them.
+
+### On Linux or macOS
+
+Use the built-in `tar` command to extract the files:
+
+To extract a single file:
+
+```bash
+tar -xzf data/spectra/all_spec_z6.tar.gz -C data/spectra/
+```
+
+To extract all spectra files:
+
+```bash
+cd data/spectra/
+for f in all_spec_z*.tar.gz; do
+    tar -xzf "$f"
+done
+```
+
+Same applies for other compressed directories like `lya_ha_spec_profs/`.
+
+### On Windows (PowerShell)
+
+You can use built-in tools or a tool like 7-Zip. Here's how to use PowerShell:
+
+To extract a single file:
+
+```powershell
+tar -xzf data/spectra/all_spec_z6.tar.gz -C data/spectra/
+```
+
+To extract all files:
+
+```powershell
+cd data/spectra
+Get-ChildItem *.tar.gz | ForEach-Object { tar -xzf $_.Name }
+```
+
+If `tar` is not available, use 7-Zip:
+
+1. Download and install [7-Zip](https://www.7-zip.org/)
+2. Right-click the `.tar.gz` file and choose **Extract Here** (you may need to do this twice: once for `.gz`, then for `.tar`)
+
+
+## Step 5: Run analysis scripts
+
+Navigate to the directory containing the Python files:
+
+```bash
+cd python-files/
+```
+
+Then run any script with:
+
+```bash
+python3 script_name.py
+```
+
+For example:
+
+```bash
+python3 sphinx_20_manual_00-basic-data-manipulation.py
+```
+
+Ensure that any compressed data files (e.g., `.tar.gz`) have been decompressed before running scripts that depend on them.
